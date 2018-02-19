@@ -126,4 +126,11 @@ nav li{
 	.desktop{
 		display: inline;
 	}
+	
+	/* Style specifies a display, float, and padding for the equip class*/
+	.equip{
+		display: inline;
+		float: left;
+		margin-right: 1.5em;
+	}
 }
