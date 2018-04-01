@@ -140,6 +140,19 @@ footer a{
     .chkbx{
         display: inline-block;
     }
+	
+/*Style rule for the video class*/
+.video{
+	padding: 1em;
+	text-align: center;
+}
+
+/* Style rule for video element*/
+video{
+	border: 0.5em ridge #ffffff;
+	height: auto;
+	max-width: 100%;
+}
 
 /**************media query for tablet viewport targets screen size with a minimum width of 660px. ************/
 
@@ -355,7 +368,6 @@ nav li{
 	
 	/*Style for nav specifies a float, margin, and width*/
 	nav{
-        background-color: #c1d9ca;
 		float: right;
 		margin-top: -7em;
 		margin-right: 3em;
