@@ -26,6 +26,24 @@ img{
 	margin-right: auto;
 }
 
+/*Style rule for the copyright div*/
+#copyright{
+	float: left;
+	margin-top: 2em;
+	width: 80%;
+}
+
+/*styles 4 social div*/
+#social{
+	float: right;
+	width: 20%;
+}
+
+/*style rule for social icons*/
+# social img{
+	padding: 0.5em;
+}
+
 /* Style for header specifies top and botom margins, background color, rounded border, shadow, and alignment */
 header{
 	text-align: center;
@@ -345,6 +363,11 @@ nav li{
     footer{
         clear: left;
     }
+	
+	/*Style rule for form unordered list element*/
+	form ul{
+		margin-left: 2em;
+	}
 }
 
 /**********Media query for desktop viewport targets screens with a minimum width of 830px ************/ 
